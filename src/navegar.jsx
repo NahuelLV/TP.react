@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link} from 'react-router-dom'
 import './publicar.css';
+
 const links = [
 {
     name: "Home",
@@ -10,6 +11,10 @@ const links = [
     name:"Publicar",
     href:"/publicar",
 },
+{
+    name:"Comentarios",
+    href:"/comentarios",
+}
 ];
 
 const Nav = () => {

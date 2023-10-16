@@ -25,3 +25,8 @@ body{
   text-decoration: underline;
   padding: 10px;
 }
+
+.publi{
+  border:  solid 1px;
+  text-align: center;
+}
