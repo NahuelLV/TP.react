@@ -1,3 +1,7 @@
+.main{
+justify-content: space-evenly;
+}
+
 body{
   padding: 0%;
   margin: 0%;
@@ -27,6 +31,11 @@ body{
 }
 
 .publi{
+  /* width: 50%; */
   border:  solid 1px;
-  text-align: center;
+  /* text-align: center; */
+} 
+
+.publi > * {
+  overflow-wrap: break-word;
 }

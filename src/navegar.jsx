@@ -12,7 +12,10 @@ const links = [
     href:"/publicar",
 },
 {
-    name:"Comentarios",
+    name:"Inicia sesion",
+    href:"/Admin",
+},
+{
     href:"/comentarios",
 }
 ];

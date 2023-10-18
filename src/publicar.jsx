@@ -34,12 +34,12 @@ function Publica() {
   const boton = (e) =>  {
     e.preventDefault();
    
-      const newComment = [...comments, {autor, tema,texto, id:comments.length}];
+      const newComment = [...comments, {autor, tema,texto}];
       setComments(newComment);
 
       localStorage.setItem('comments', JSON.stringify(newComment));
   
-      const newPublication = { autor: autor, titulo: tema, contenido: texto };
+      const newPublication = { autor: autor, titulo: tema, contenido: texto,id: publications.length };
       const updatedPublications = [...publications, newPublication];
       setPublications(updatedPublications);
       localStorage.setItem('publications', JSON.stringify(updatedPublications));
